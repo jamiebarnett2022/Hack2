@@ -141,8 +141,6 @@ public class AllTogether extends PApplet{
 	
 	public void moveCharacter(int x, int y) {
 		
-		System.out.println("Hello?");
-		
 		for(Tile[] row : grid)
 		{
 			for(Tile t : row)
